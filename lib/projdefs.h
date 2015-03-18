@@ -6,15 +6,14 @@ extern "C"
 {
 #endif
 
-
-#define U32 unsigned long
-#define U16 unsigned short
-#define U8  unsigned char
-#define S32 long
-#define S16 short
-#define	S8  char
-#define Size_t	unsigned short
-#define BYTE	unsigned char
+typedef unsigned long U32; 
+typedef unsigned short U16; 
+typedef unsigned char U8; 
+typedef long S32; 
+typedef short S16; 
+typedef char S8; 
+typedef unsigned Size_t; 
+typedef unsigned char BYTE; 
 
 #define TRUE 	(1)   
 #define FALSE 	(0)
